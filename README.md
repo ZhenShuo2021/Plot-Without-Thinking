@@ -1,4 +1,4 @@
-# Plot-Without-Thinking
+# Plot Without Thinking
 See me if you want to plot xy figure in Matlab or Matplotlib.
 ## Why this example
 There are not any all in one tutorial on internet. Plot a nice look xy figure is very time wasting.  
