@@ -37,7 +37,6 @@ p5=semilogy(x,l.p5,'r--s','LineWidth',LineWidth,'MarkerSize',MarkerSize);grid on
 p6=semilogy(x,l.p6,'r--^','LineWidth',LineWidth,'MarkerSize',MarkerSize);grid on; hold on
 
 set(gca,'XTick',x,'FontName','Times','fontsize',18)
-% title({'i.i.d. AER'},'FontWeight','normal','fontsize',24, 'interpreter', 'latex')
 xlabel('SNR (dB)','FontName','Times','fontsize',24, 'interpreter', 'latex')
 ylabel('Null','FontName','Times','fontsize',24, 'interpreter', 'latex')
 axis([x(1) x(end) 1e-5 .4]);
