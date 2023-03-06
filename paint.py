@@ -27,6 +27,7 @@ ax.grid(which='major', alpha=.6)
 ax.grid(which='minor', linestyle = ':', alpha=.5)
 ax.set_xticks(xtick)
 ax.set_xlim(test_SNR[0], test_SNR[-1])
+ax.set_yscale('log',nonpositive='mask')
 ax.tick_params(axis="x", which='both', direction="in", pad=6, labelsize=fontsmall)    # pad: distance to border
 ax.tick_params(axis="y", which='both', direction="in", pad=6, labelsize=fontsmall)
 # ax.yaxis.set_minor_formatter(ticker.ScalarFormatter())    # scalar not power
